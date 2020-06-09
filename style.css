@@ -389,13 +389,13 @@ body
      top: -312px; 
    
     	
-     left: 160px;
+     left: 227px;
 	}
 	.enjoy_tv video
 	{
 		position: relative;
     	
-		left: 165px;
+		left: 282px;
 	}
 	.watch_everywhere
 	{
@@ -426,45 +426,50 @@ body
 	.watch_everywhere img
 	{
 		
+    
     position: relative;
-    bottom: 493px;
-    margin: 0px auto;
+    left: 209px;
+    bottom: 505px;
     }
 	.watch_everywhere video
 	{
-
 		position: relative;
-		bottom: 159px;
-				left:25px;
+	   
+	    bottom: 176px;
+    left: 297px;
 	}
 	.download_offline
-{	
-	margin-top: 10px;
-		display: flex;	
-		flex-direction: column;
-		margin-bottom: 0px;
-}
-.content-download_offline
-{
+	{	
 		margin-top: 10px;
-		line-height: 1.4;
-		margin-bottom: 140px;
-	
-}
-.content-download_offline h1
-{
-		font-family: 'Arial', sans-serif;
-		font-size: 35px;
+			display: flex;	
+			flex-direction: column;
+			margin-bottom: 0px;
+	}
+	.content-download_offline
+	{
+			margin-top: 10px;
+			line-height: 1.4;
+			margin-bottom: 140px;
+		
+	}
+	.download_offline img
+	{
 		margin: 0px auto;
-    	
-}
-.content-download_offline p
-{
-	
-		width: 80vw;
-		font-size: 20px;
-		margin: 0px auto;
-}
+	}
+	.content-download_offline h1
+	{
+			font-family: 'Arial', sans-serif;
+			font-size: 35px;
+			margin: 0px auto;
+	    	
+	}
+	.content-download_offline p
+	{
+		
+			width: 80vw;
+			font-size: 20px;
+			margin: 0px auto;
+	}
 
 	.question
 	{
@@ -474,4 +479,139 @@ body
 	{	
 		width: 90vw;
 	}
+	#watch-dividing
+	{
+		margin-top: 90px;
+	}
+	#enjoy_tv-dividing
+	{
+		margin-top: -200px!important;
+	}
+
 } 
+@media only screen and (max-width: 750px)
+{	
+	.enjoy_tv img
+	{
+		display: inline-flex;
+    	position: relative;
+     top: -312px; 
+   
+    	
+     left: 145px;
+	}
+	.enjoy_tv video
+	{
+		position: relative;
+    	
+		left: 202px;
+	}
+	.watch_everywhere img
+	{
+		
+    
+    position: relative;
+    left: 114px;
+    bottom: 505px;
+    }
+	.watch_everywhere video
+	{
+		position: relative;
+	   
+	    bottom: 176px;
+    	left: 198px;
+	}
+}
+@media only screen and (max-width:600px)
+{
+	.watch_everywhere img
+	{
+		
+    
+    position: relative;
+    left: 23px;
+    bottom: 505px;
+    }
+	.watch_everywhere video
+	{
+		position: relative;
+	   
+	    bottom: 176px;
+    	left: 110px;
+	}	
+	.enjoy_tv img
+	{
+		display: inline-flex;
+    	position: relative;
+     	top: -312px; 
+   
+    	
+     	left: 60px;
+	}
+	.enjoy_tv video
+	{
+		position: relative;
+    	
+		left: 123px;
+	}
+
+}
+@media only screen and (max-width: 538px)
+{
+	.watch_everywhere img
+	{
+		
+    width:369px;
+    position: relative;
+    left: 73px;
+    bottom: 505px;
+    }
+	.watch_everywhere video
+	{
+		
+    	position: relative;
+    width: 241px;
+    bottom: 204px;
+    left: 134px;
+	}	
+	.enjoy_tv img
+	{
+		display: inline-flex;
+    	position: relative;
+     	top: -312px; 
+   
+    	width: 346px;
+    left: 106px;
+	}
+	.enjoy_tv video
+	{
+		position: relative;
+	    width: 236px;
+	    left: 166px;
+	    bottom: 103px;
+	}
+	.content-enjoy_tv
+	{
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+
+	#watch-dividing
+	{
+		margin-top: 0px;
+	}
+	.movies-header h1
+	{
+		font-size: 30px;
+	}
+	.movies-header h4
+	{
+		font-size: 23px;
+		font-weight: 200;
+	}
+	#top_ready
+	{
+		font-size:18px;
+	}
+
+}
