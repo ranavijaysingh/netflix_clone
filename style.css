@@ -1,0 +1,477 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	background: #000;
+	
+}
+.container
+{
+	color:white;
+	margin-bottom: 20px;
+}
+.header
+{
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url("images/Netflix-Background.jpg") center no-repeat;	
+	height: 669px;
+	background-size: cover;
+	position: relative;
+
+}
+.logo-sign-header
+{
+	position:relative;
+}
+.logo-image-header
+{
+	width: 115px;
+	height: 30px;
+	padding-top:30px;
+	padding-left: 45px; 
+}
+.sign-in-header
+{
+	background: #e50914;
+	color: white;
+	border:none;
+	border-radius:5px;
+	float: right;
+	margin-top:30px;
+	margin-right:45px;
+	line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.movies-header
+{
+	display: flex;
+	flex-direction:column; 
+	text-align: center;
+	line-height: 1.2;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+.movies-header h1
+{	
+	width: 550px;
+	font-family: 'Arial', sans-serif;
+	font-size: 3.125rem;	
+}
+.movies-header h4
+{
+	line-height: 1.4;
+	font-size:1.625rem;
+	font-family: 'Arial', sans-serif;
+}
+.inputbox p
+{
+	font-family: 'Arial', sans-serif;
+	font-size:20px;
+	margin-top: 10px;
+}
+.inputbox input
+{
+	width: 450px;
+	height: 51px;
+	margin-top: 20px;
+	font-size: 15px;
+	outline: none;
+}
+.inputbox input:focus
+{	
+	outline: 2px solid blue;
+	
+}
+.inputbox button
+{	
+	background: #e50914;
+	color:white;
+	padding: 9px 19px 17px 19px;
+	margin-top: 20px;
+	border:none;
+	font-size:26px;
+	cursor: pointer;
+}
+.dividing-section
+{	position: relative;
+	background: #222;
+	width:100%;
+	height: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+.enjoy_tv
+{
+	margin-top: 10px;
+	display: flex;	
+	flex-direction: row;
+	position: relative;
+
+}
+.content-enjoy_tv
+{
+	margin-top: 140px;
+	line-height: 1.4;
+	margin-bottom: 140px;
+}
+.content-enjoy_tv h1
+{
+	font-family: 'Arial', sans-serif;
+	font-size:45px;
+    width: 537px;
+    padding-left: 120px;
+}
+.content-enjoy_tv p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 25px;
+    padding-left: 120px;
+    width: 537px;
+}
+
+.enjoy_tv img 
+{
+	width: 500px;
+	text-align: right;
+	position: absolute;
+	right: 45px;
+}
+.enjoy_tv video
+{
+	width: 340px;
+    position: absolute;
+    right: 124px;
+    bottom: 47px;
+}
+.download_offline
+{	
+	margin-top: 10px;
+	display: flex;	
+	flex-direction: row;
+	margin-bottom: 60px;
+}
+.content-download_offline
+{
+	margin-top: 130px;
+	line-height: 1.4;
+}
+.content-download_offline h1
+{
+		font-family: 'Arial', sans-serif;
+		font-size:45px;
+    	width: 85%;
+    	
+}
+.content-download_offline p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 25px;
+    
+   width: 84%;
+}
+.watch_everywhere
+{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	height: 480px;
+}
+.content-watch_everywhere
+{
+	margin-top: 140px;
+	line-height: 1.4;
+}
+
+.watch_everywhere h1
+{
+	font-family: 'Arial', sans-serif;
+	font-size:45px;
+    width: 85%;
+    padding-left: 120px;
+}
+
+.watch_everywhere p
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 25px;
+    padding-left: 120px;
+    width: 54%;
+
+    
+}
+.watch_everywhere img
+{
+	position: absolute;
+	right: 45px;
+	width: 500px;
+	margin-top: 30px;
+}
+.watch_everywhere video
+{
+	
+    position: absolute;
+    right: 145px;
+    bottom: 91px;
+    width: 311px;
+    
+}
+.frequent_question
+{
+	margin-top: 2.7rem;
+	text-align: center;
+	justify-content: left;
+	font-family: 'Arial', sans-serif;
+	margin-bottom: 2.7rem;
+
+}
+.frequent_question h1
+{
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+.question-box
+{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.question
+{	background: #222;
+	width: 700px;
+	font-size: 22px;
+	padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 500;
+    margin:0px auto;
+    margin-top:5px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.ans
+{	
+	margin-top: 1px;
+	background: #222;
+	font-size: 22px;
+	width: 700px;
+	margin:0px auto;
+	padding: .8em 2.2em .8em 1.2em;
+	margin-bottom: 1px;
+	text-align: left; 
+	display: none;
+}
+.question i
+{
+	float: right;
+	margin-right: 0px;
+	padding-right: 0px;
+	font-weight: 505!important;
+
+}
+.main
+{
+	display: block;
+}
+/*media QUERies*/
+@media only screen and (max-width: 1160px)
+{
+		.content-enjoy_tv h1
+	{
+		
+	    width: 400px;
+	    padding-left: 90px;
+	}
+	.content-enjoy_tv p
+	{
+		
+	    padding-left: 90px;
+	    width: 400px;
+	}
+	.watch_everywhere h1
+	{
+		
+		font-size:45px;
+	    width: 400px;
+	    padding-left: 90px;
+	}
+
+	.watch_everywhere p
+	{
+		font-family: 'Arial', sans-serif;
+		font-size: 25px;
+	    padding-left: 90px;
+	    width: 400px;  
+	}
+	.download_offline img
+	{
+		width: 500px;
+		padding-left: 0px;
+	}
+}
+@media only screen and (max-width: 1021px)
+{
+	.content-enjoy_tv h1
+	{
+		
+	    width: 400px;
+	    padding-left: 90px;
+	}
+	.content-enjoy_tv p
+	{
+		
+	    padding-left: 90px;
+	    width: 400px;
+	}
+	.enjoy_tv img 
+	{
+		width: 451px;
+	    text-align: right;
+	    position: absolute;
+	    right: 45px;
+	    margin-top: 20px;
+	}
+	.enjoy_tv video
+	{
+		width: 329px;
+	    position: absolute;
+	    right: 110px;
+	    bottom: 41px;
+	}
+}
+@media only screen and (max-width: 970px)
+{	
+
+	body
+	{
+		overflow-x: hidden;
+	}
+	.enjoy_tv
+	{
+		margin-top: 10px;
+		display: flex;	
+		flex-direction: column;
+		margin-bottom: 0px;
+	}
+	.content-enjoy_tv
+	{	
+		margin-top: 10px;
+		line-height: 1.4;
+		margin-bottom: 140px;
+		overflow-x: hidden;	
+	}
+	.content-enjoy_tv h1
+	{
+		font-size: 35px;
+		margin: 0px auto;
+		width: 80vw;
+		text-align: center;
+	}
+	.content-enjoy_tv p
+	{	
+		width: 80vw;
+		font-size: 20px;
+		margin: 0px auto;
+		text-align: center;
+	}
+	.enjoy_tv img
+	{
+		display: inline-flex;
+    	position: relative;
+     top: -312px; 
+   
+    	
+     left: 160px;
+	}
+	.enjoy_tv video
+	{
+		position: relative;
+    	
+		left: 165px;
+	}
+	.watch_everywhere
+	{
+		margin-top: 10px;
+		display: flex;	
+		flex-direction: column;
+		margin-bottom: 0px;
+		
+	}
+	.content-watch_everywhere
+	{
+		margin-top: 10px;
+		line-height: 1.4;
+		margin-bottom: 140px;
+		
+	}
+	.content-watch_everywhere h1
+	{
+		font-size: 35px;
+		margin: 0px auto;
+	}
+	.content-watch_everywhere p
+	{	
+		width: 80vw;
+		font-size: 20px;
+		margin: 0px auto;
+	}
+	.watch_everywhere img
+	{
+		
+    position: relative;
+    bottom: 493px;
+    margin: 0px auto;
+    }
+	.watch_everywhere video
+	{
+
+		position: relative;
+		bottom: 159px;
+				left:25px;
+	}
+	.download_offline
+{	
+	margin-top: 10px;
+		display: flex;	
+		flex-direction: column;
+		margin-bottom: 0px;
+}
+.content-download_offline
+{
+		margin-top: 10px;
+		line-height: 1.4;
+		margin-bottom: 140px;
+	
+}
+.content-download_offline h1
+{
+		font-family: 'Arial', sans-serif;
+		font-size: 35px;
+		margin: 0px auto;
+    	
+}
+.content-download_offline p
+{
+	
+		width: 80vw;
+		font-size: 20px;
+		margin: 0px auto;
+}
+
+	.question
+	{
+		width: 90vw;
+	}
+	.ans
+	{	
+		width: 90vw;
+	}
+} 
